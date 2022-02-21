@@ -1,0 +1,35 @@
+{
+    "author": "Anonymous <mystery@example.com>",
+    "description": "first version release on archlinux by qv2ray.",
+    "domainMatcher": "mph",
+    "domainStrategy": "IPIfNonMatch",
+    "domains": {
+        "block": [
+            "geosite:category-ads-all"
+        ],
+        "direct": [
+            "geosite:cn",
+            "geosite:private",
+            "geosite:apple",
+            "geosite:apple-update",
+            "geosite:icloud",
+            "geosite:microsoft",
+            "geosite:microsoft-dev",
+            "geosite:mediachinesegroup",
+            "geosite:category-media-cn",
+            "geosite:baidu"
+        ],
+        "proxy": [
+            "geosite:category-anticensorship",
+            "geosite:v2ray",
+            "geosite:google"
+        ]
+    },
+    "ips": {
+        "direct": [
+            "geoip:cn",
+            "geoip:private"
+        ]
+    },
+    "name": "220222_arch.json"
+}
