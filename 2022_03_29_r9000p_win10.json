@@ -1,0 +1,46 @@
+{
+    "author": "Jiapei Zeng",
+    "domainMatcher": "mph",
+    "domainStrategy": "IPIfNonMatch",
+    "domains": {
+        "block": [
+            "geosite:category-ads-all"
+        ],
+        "direct": [
+            "geosite:cn",
+            "geosite:private",
+            "geosite:apple",
+            "domain:cdn-apple",
+            "geosite:apple-update",
+            "geosite:icloud",
+            "domain:icloud.com",
+            "domain:icloud-content.com",
+            "domain:cdn-apple.com",
+            "geosite:microsoft",
+            "domain:cdn-microsoft",
+            "geosite:microsoft-dev",
+            "domain:cdn-microsoft-dev",
+            "geosite:mediachinesegroup",
+            "geosite:category-media-cn",
+            "geosite:baidu"
+        ],
+        "proxy": [
+            "geosite:category-anticensorship",
+            "geosite:v2ray",
+            "geosite:google",
+            "geosite:github",
+            "geosite:gitlab",
+            "geosite:telegram",
+            "geosite:twitch",
+            "geosite:twitter",
+            "geosite:discord"
+        ]
+    },
+    "ips": {
+        "direct": [
+            "geoip:cn",
+            "geoip:private"
+        ]
+    },
+    "name": "2022_03_29_r9000p"
+}

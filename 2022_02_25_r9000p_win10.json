@@ -1,0 +1,27 @@
+{
+    "author": "Anonymous <mystery@example.com>",
+    "description": "作者太懒，没有写描述",
+    "domainMatcher": "mph",
+    "domainStrategy": "IPIfNonMatch",
+    "domains": {
+        "direct": [
+            "domain:icloud.com",
+            "domain:icloud-content.com",
+            "domain:cdn-apple.com",
+            "geosite:cn",
+            "geosite:private",
+            "geosite:microsoft"
+        ],
+        "proxy": [
+            "geosite:github",
+            "geosite:gitlab",
+            "geosite:telegram",
+            "geosite:twitch",
+            "geosite:twitter",
+            "geosite:discord"
+        ]
+    },
+    "ips": {
+    },
+    "name": "2022_02_25_win10"
+}
